@@ -16,42 +16,42 @@ Each query is documented below, with additional explanations in their respective
 #### 1. List of Store Managers and Store Addresses
 Retrieve the names of store managers along with each store's full address, including street, district, city, and country.
 
-![SQL/query1_store_managers.sql]([SQL/query1_store_managers.sql](https://github.com/Kelvin-nwak/Sidocomms-Movies-Management---Acquisition-Data-Analysis/blob/31f2c47eaf0b43b59462f26397bbc1bfb56fdf5b/SQL/Q1.jpg))
+![SQL/query1_store_managers.sql](https://github.com/Kelvin-nwak/Sidocomms-Movies-Management---Acquisition-Data-Analysis/blob/31f2c47eaf0b43b59462f26397bbc1bfb56fdf5b/SQL/Q1.jpg)
 
 #### 2. Inventory Details by Store
 Provide a list of inventory items stocked in each store, with details such as store ID, inventory ID, film name, rating, rental rate, and replacement cost.
 
-**File**: [SQL/query2_inventory_items.sql](SQL/query2_inventory_items.sql)
+![SQL/query1_store_managers.sql](https://github.com/Kelvin-nwak/Sidocomms-Movies-Management---Acquisition-Data-Analysis/blob/b449e6801b9dd10a1d2bf2083e98202e7d87aed8/SQL/Q2.jpg)
 
 #### 3. Inventory Summary by Rating and Store
 Roll up the inventory data to give a summary-level overview, showing the count of inventory items by rating at each store.
 
-**File**: [SQL/query3_inventory_summary.sql](SQL/query3_inventory_summary.sql)
+![SQL/query3_inventory_summary.sql](https://github.com/Kelvin-nwak/Sidocomms-Movies-Management---Acquisition-Data-Analysis/blob/b449e6801b9dd10a1d2bf2083e98202e7d87aed8/SQL/Q3.jpg)
 
 #### 4. Replacement Cost Analysis by Store and Category
 Analyze the diversification of inventory based on replacement costs. Display the count of films, average replacement cost, and total replacement cost per store and film category.
 
-**File**: [SQL/query4_replacement_cost_analysis.sql](SQL/query4_replacement_cost_analysis.sql)
+![SQL/query4_replacement_cost_analysis.sql](https://github.com/Kelvin-nwak/Sidocomms-Movies-Management---Acquisition-Data-Analysis/blob/b449e6801b9dd10a1d2bf2083e98202e7d87aed8/SQL/Q4.jpg)
 
 #### 5. Customer Details with Store and Address
 List all customer names, their associated store, active status, and full address, including street, city, and country.
 
-**File**: [SQL/query5_customers.sql](SQL/query5_customers.sql)
+![SQL/query5_customers.sql](https://github.com/Kelvin-nwak/Sidocomms-Movies-Management---Acquisition-Data-Analysis/blob/b449e6801b9dd10a1d2bf2083e98202e7d87aed8/SQL/Q5.jpg)
 
 #### 6. Customer Lifetime Value Analysis
 Identify the most valuable customers by calculating the total number of rentals and the total payments collected. Order this by total lifetime value, showing the most valuable customers at the top.
 
-**File**: [SQL/query6_customer_value.sql](SQL/query6_customer_value.sql)
+![SQL/query6_customer_value.sql](https://github.com/Kelvin-nwak/Sidocomms-Movies-Management---Acquisition-Data-Analysis/blob/b449e6801b9dd10a1d2bf2083e98202e7d87aed8/SQL/Q6.jpg)
 
 #### 7. Board of Advisors and Investors
 Provide a list of board members, specifying whether each is an investor or advisor. Include the associated company for each investor.
 
-**File**: [SQL/query7_advisors_investors.sql](SQL/query7_advisors_investors.sql)
+![SQL/query7_advisors_investors.sql](https://github.com/Kelvin-nwak/Sidocomms-Movies-Management---Acquisition-Data-Analysis/blob/b449e6801b9dd10a1d2bf2083e98202e7d87aed8/SQL/Q7.jpg)
 
 #### 8. Awarded Actors Coverage Analysis
 Determine the coverage of awarded actors in the inventory. Calculate the percentage of actors with awards for whom there are films in the inventory, broken down by actors with two types of awards and those with only one award.
 
-**File**: [SQL/query8_awarded_actors_coverage.sql](SQL/query8_awarded_actors_coverage.sql)
+![SQL/query8_awarded_actors_coverage.sql](https://github.com/Kelvin-nwak/Sidocomms-Movies-Management---Acquisition-Data-Analysis/blob/b449e6801b9dd10a1d2bf2083e98202e7d87aed8/SQL/Q8.jpg)
 
 ## Setup Instructions
 1. **Database Setup**: Use the provided `sample_data.sql` file to create and populate the Movies Database.
