@@ -16,7 +16,7 @@ Each query is documented below, with additional explanations in their respective
 #### 1. List of Store Managers and Store Addresses
 Retrieve the names of store managers along with each store's full address, including street, district, city, and country.
 
-**File**: [SQL/query1_store_managers.sql](SQL/query1_store_managers.sql)
+![SQL/query1_store_managers.sql]([SQL/query1_store_managers.sql](https://github.com/Kelvin-nwak/Sidocomms-Movies-Management---Acquisition-Data-Analysis/blob/31f2c47eaf0b43b59462f26397bbc1bfb56fdf5b/SQL/Q1.jpg))
 
 #### 2. Inventory Details by Store
 Provide a list of inventory items stocked in each store, with details such as store ID, inventory ID, film name, rating, rental rate, and replacement cost.
